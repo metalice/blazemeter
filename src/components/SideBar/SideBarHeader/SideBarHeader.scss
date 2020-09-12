@@ -1,0 +1,22 @@
+.SideBarHeader-main {
+  width: 100%;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  .title {
+    color: lightskyblue;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  i {
+    color: black;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  .refresh {
+    transform: rotateX(180deg) rotateY(180deg);
+    width: 18px;
+    height: 18px;
+  }
+}
